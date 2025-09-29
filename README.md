@@ -17,3 +17,6 @@ A) The thing that i noticed about registers and instructions in assembly is that
 Q) How is coding in Assembly different from Python? 
 
 A) Coding in assembly is different from python in many aspects.For example, in assembly we use registers like eax to store our required data to use it later whereas in python,the coding is straightforward and very user-friendly for beginners who wish to learn coding.
+
+COMPARISON TABLE:
+Variable storage:   Assembly stores data in registers such as EAX, whereas Python uses named variables as containers.                                                                                                                                                                                         Printing output: assembly requires a directive like INT 21h to collaborate with the operating system for output. In Python, we use the print() function for output.                                                                                                                            Arithmetic:   Assembly uses short forms like (ADD) to perform that operation directly. In python, we use the operation on a constant or a variable by instructing the compiler.
