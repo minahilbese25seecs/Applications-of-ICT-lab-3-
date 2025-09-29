@@ -21,15 +21,6 @@ A) Coding in assembly is different from python in many aspects.For example, in a
 
 COMPARISON TABLE:
 
-Feature                  Assembly Example	              Python Example	                      Notes
-
-Variable storage 	       Register (EAX)	                    x=5 	              Assembly stores data in registers                                                                                             such as EAX, whereas Python uses named                                                                                        variables as containers.
-
-Printing output	          INT 21h                          Print()	            assembly requires a directive like INT 21h to                                                                                 collaborate with the operating system for                                                                                     output. In Python, we use the print()                                                                                         function for output.
-
-Arithmetic	             ADD AX, BX	                        x+y	                Assembly uses short forms like (ADD) to                                                                                       perform that operation directly. In python,                                                                                   we use the operation on a constant or a                                                                                       variable by instructing the compiler.
-
-
 | Feature | Assembly Example | Python Example | Notes |
 | :--- | :--- | :--- | :--- |
 | **Variable storage** | Register (EAX) | `x = 5` | Assembly stores data in registers                                                                                             such as EAX, whereas Python uses named                                                                                        variables as containers. |
