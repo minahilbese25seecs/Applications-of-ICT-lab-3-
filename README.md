@@ -32,9 +32,9 @@ Arithmetic	             ADD AX, BX	                        x+y	                A
 
 | Feature | Assembly Example | Python Example | Notes |
 | :--- | :--- | :--- | :--- |
-| **Variable storage** | Register (EAX) | `x = 5` | Assembly stores data primarily in hardware registers (like EAX) or memory. Python uses named variables as abstract containers. |
-| **Printing output** | `INT 21h` | `print()` | Assembly requires a system call (`INT 21h` in DOS/x86) to interact directly with the OS. Python uses a high-level function that handles the system calls implicitly. |
-| **Arithmetic** | `ADD AX, BX` | `x + y` | Assembly uses mnemonics (`ADD`) on registers (AX, BX). Python uses standard mathematical operators (`+`) on named variables. |
+| **Variable storage** | Register (EAX) | `x = 5` | Assembly stores data in registers                                                                                             such as EAX, whereas Python uses named                                                                                        variables as containers. |
+| **Printing output** | `INT 21h` | `print()` |  assembly requires a directive like INT 21h to                                                                                 collaborate with the operating system for                                                                                     output. In Python, we use the print()                                                                                         function for output. |
+| **Arithmetic** | `ADD AX, BX` | `x + y` | Assembly uses short forms like (ADD) to                                                                                       perform that operation directly. In python,                                                                                   we use the operation on a constant or a                                                                                       variable by instructing the compiler.|
 
 		
 
